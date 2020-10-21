@@ -60,7 +60,7 @@ enum SPPermissionsText {
         switch permission {
         #if os(iOS)
         case .camera:
-            return "Allow app for use camera"
+            return "Allow app to use camera"
         case .calendar:
             return "Application can add events to calendar"
         case .contacts:
